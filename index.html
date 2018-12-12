@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <title>Word Guessing Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Word Guessing Game</h1>
+
+      <h2>Word State</h2>
+
+      <p id="word"></p>
+
+      <h2>Guessed alphabets</h2>
+
+      <ul id="past-guesses"></ul>
+
+      <h2>Guess</h2>
+      <p>You have <span id="guesses-left">/</span> guesses to complete.</p>
+      <form action="" id="player-input">
+        <input type="text" id="player-guess" /> <input type="submit" />
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
